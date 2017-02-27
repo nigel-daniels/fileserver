@@ -1,2 +1,2 @@
 # fileserver
-A simple backend for testing, serves files in JSON
+A simple backend for testing, serves file directories.
