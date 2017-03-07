@@ -12,5 +12,6 @@ var app = express();
 
 app.use(serveLindex(__dirname + '/upload', {'dotfiles': 'ignore', 'long': true}));
 
-app.listen(3000);
-console.log('Fileserver app listening on port 3000');
+app.listen(3000, function(){
+	console.log('Fileserver app listening on port 3000');
+	});
